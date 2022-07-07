@@ -24,7 +24,7 @@ max-width: 50px;
 
     .menu-logo{
         padding: 0.3rem 0;
-        font-size: x-large;
+        
     }
     
     .menu-logo span{
@@ -69,14 +69,14 @@ max-width: 50px;
     }
     
     .container{
-        max-width: 700px;
+        max-width: 780px;
         margin: 0 auto;
     }
 
 .hero{
     padding: 2rem;
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1)0%, rgba(255,255,255,1)75%, #FF8D00 75%, #FF8D00 100% , rgba(0,0,0,1) 134%);
+    background: linear-gradient(180deg, rgba(255,255,255,1)0%, rgba(255,255,255,1)75%, #4267B2 75%, #4267B2 100% , rgba(0,0,0,1) 134%);
 }
 
 .hero-text{
@@ -85,7 +85,7 @@ max-width: 50px;
 
 .hero-bar{
     background-color: #4267B2;
-    width: 550px;
+    width: 360px;
     height: 4px;
 }
 
@@ -97,7 +97,7 @@ max-width: 50px;
 
 
 .hero-right img{
-    max-width: 700px;
+    max-width: 740px;
     border-radius: 8px;
     padding-top: 2rem;
 }
@@ -114,7 +114,7 @@ img{
     max-width: 100%;
     border-radius: 12px;
     padding: auto;
-    
+    max-width: 400px;
     
 
 }
@@ -158,6 +158,51 @@ textarea{
     max-width: 550px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+/*Menu*/
+
+
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+  
+  #Informacje {
+    top: 140px;
+    background-color: #002a9e;
+  }
+  
+  #Dyskusja {
+    top: 200px;
+    background-color: #005bd1; 
+  }
+  
+  #Przewodniki {
+    top: 260px;
+    background-color: #007fd4; 
+  }
+  
+  #Członkowie {
+    top: 320px;
+    background-color: rgb(0, 195, 255) 
+  }
+
+
+
 
 @media only screen and (min-width: 768px){
     .hero{

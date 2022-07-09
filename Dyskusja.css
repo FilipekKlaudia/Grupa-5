@@ -207,7 +207,7 @@ textarea{
         background: linear-gradient(70deg, rgba(255,255,255,1)0%, rgba(255,255,255,1)75%, #4267B2 75%, #4267B2 100% , rgba(0,0,0,1) 134%);;
     }
     .hero-right img{
-        max-width: 400px;
+       
         margin: 1rem;
     }
     .hero-left{
